@@ -2,13 +2,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@drawable/game_details_background">
 
     <EditText
         android:id="@+id/etGameName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Game Name"
+        android:hint="Nome do jogo"
+        android:background="@drawable/input_background"
         android:enabled="false"
         android:layout_marginBottom="8dp"/>
 
@@ -16,7 +18,8 @@
         android:id="@+id/etGameDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Game Description"
+        android:hint="Descrição do jogo"
+        android:background="@drawable/input_background"
         android:enabled="false"
         android:layout_marginBottom="8dp"/>
 
@@ -24,7 +27,8 @@
         android:id="@+id/etGameRating"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Game Rating"
+        android:background="@drawable/input_background"
+        android:hint="Avaliação"
         android:enabled="false"
         android:layout_marginBottom="16dp"/>
 
@@ -33,14 +37,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/home_screen_button_background"
-        android:text="Edit"/>
+        android:text="Editar"/>
 
     <Button
         android:id="@+id/btnDelete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/home_screen_button_background"
-        android:text="Delete"
+        android:text="Deletar"
         android:layout_marginTop="16dp"/>
 
     <Button
@@ -48,7 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/home_screen_button_background"
-        android:text="Back"
+        android:text="Voltar"
         android:layout_marginTop="8dp"/>
 
 </LinearLayout>
