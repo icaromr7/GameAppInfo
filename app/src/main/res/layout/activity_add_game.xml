@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/add_game_background">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_screen_button_background"
+        android:text="Voltar" />
+
+    <EditText
+        android:id="@+id/etGameName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Jogo"
+        android:layout_margin="3dp"
+        android:background="@drawable/text_add_game_background"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/etGameDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:hint="Descrição"
+        android:background="@drawable/text_add_game_background"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/etGameRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_margin="3dp"
+        android:hint="Avaliação"
+        android:background="@drawable/text_add_game_background"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_screen_button_background"
+        android:text="Salvar" />
+</LinearLayout>

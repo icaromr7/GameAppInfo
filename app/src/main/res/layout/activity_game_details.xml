@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etGameName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Game Name"
+        android:enabled="false"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etGameDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Game Description"
+        android:enabled="false"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etGameRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Game Rating"
+        android:enabled="false"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_screen_button_background"
+        android:text="Edit"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_screen_button_background"
+        android:text="Delete"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_screen_button_background"
+        android:text="Back"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
